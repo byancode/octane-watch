@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "byancode/octane-watch",
+    "description": "Alternative Laravel Octane Watch",
     "keywords": [
-        ":vendor_name",
+        "byancode",
         "laravel",
-        ":package_slug"
+        "octane-watch"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/byancode/octane-watch",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Byancode",
+            "email": "byancode@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Byancode\\OctaneWatch\\": "src",
+            "Byancode\\OctaneWatch\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Byancode\\OctaneWatch\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Byancode\\OctaneWatch\\OctaneWatchServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "OctaneWatch": "Byancode\\OctaneWatch\\Facades\\OctaneWatch"
             }
         }
     },
